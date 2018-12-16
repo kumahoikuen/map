@@ -12,8 +12,7 @@
 ## 提供されるデータについて
 
 熊谷市で公開している保育所データ、および、国土数値情報ダウンロードサービスから入手できる福祉施設情報を元独自のにCSVデータを作成し利用しています。
-
-- http://www.tsukuba-kosodate.jp/nursery/Nursery_school/
+- http://www.city.kumagaya.lg.jp/shisetsu/hoiku/hoikushisetsu.html
 - http://nlftp.mlit.go.jp/ksj/index.html
 
 ## fork元
