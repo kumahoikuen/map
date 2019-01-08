@@ -365,40 +365,40 @@ Papamamap.prototype.getPopupContent = function(feature)
 {
     var content = '';
     content = '<table><tbody>';
-    if (feature.get('開園時間') !== null && feature.get('終園時間') !== null) {
-        content += '<tr>';
-        content += '<th>時間</th>';
-        content += '<td>';
-        content += feature.get('開園時間') + '～' + feature.get('終園時間');
-        content += '</td>';
-        content += '</tr>';
-    }
+    //if (feature.get('開園時間') !== null && feature.get('終園時間') !== null) {
+    //    content += '<tr>';
+    //    content += '<th>時間</th>';
+    //    content += '<td>';
+    //    content += feature.get('開園時間') + '～' + feature.get('終園時間');
+    //    content += '</td>';
+    //    content += '</tr>';
+    //}
     if (feature.get('備考') !== null) {
         content += '<tr>';
         content += '<th></th>';
         content += '<td>'+feature.get('備考')+'</td>';
         content += '</tr>';
     }
-    if( feature.get('一時') !== null || feature.get('休日') !== null ||
-    feature.get('夜間') !== null || feature.get('H24') !== null) {
-        content += '<tr>';
-        content += '<th></th>';
-        content += '<td>';
-        if (feature.get('一時') !== null) {
-            content += '一時保育 ';
-        }
-        if (feature.get('休日') !== null) {
-            content += '休日保育 ';
-        }
-        if (feature.get('夜間') !== null) {
-            content += '夜間保育 ';
-        }
-        if (feature.get('H24') !== null) {
-            content += '24時間 ';
-        }
-        content += '</td>';
-        content += '</tr>';
-    }
+    //if( feature.get('一時') !== null || feature.get('休日') !== null ||
+    //feature.get('夜間') !== null || feature.get('H24') !== null) {
+    //    content += '<tr>';
+    //    content += '<th></th>';
+    //    content += '<td>';
+    //    if (feature.get('一時') !== null) {
+    //        content += '一時保育 ';
+    //    }
+    //    if (feature.get('休日') !== null) {
+    //        content += '休日保育 ';
+    //    }
+    //    if (feature.get('夜間') !== null) {
+    //        content += '夜間保育 ';
+    //    }
+    //    if (feature.get('H24') !== null) {
+    //        content += '24時間 ';
+    //    }
+    //    content += '</td>';
+    //    content += '</tr>';
+    //}
     if(feature.get('種別') == "認可外") {
         content += '<tr>';
         content += '<th>監督基準</th>';
@@ -414,7 +414,7 @@ Papamamap.prototype.getPopupContent = function(feature)
         content += '<th>欠員</th>';
         content += '<td>';
         if (feature.get('v_age') !== null) {
-            content += feature.get('v_age') + 'に空き有り <a href="http://www.tsukuba-kosodate.jp/joyb9fd5a-261/?action=common_download_main&upload_id=4048" target="_blank">【詳細】</a>';
+            content += feature.get('v_age') + 'に空き有り <a href="http://www.city.kumagaya.lg.jp/kosodate/kodomoshisetsu/hoikunyusyo/H30hoikuukeire.files/H31.2nyuusyoukeirekanoujoukyou.pdf" target="_blank">【詳細】</a>';
 　　　　}
         content += '</td>';
         content += '</tr>';
@@ -446,15 +446,15 @@ Papamamap.prototype.getPopupContent = function(feature)
     if (feature.get('住所2') !== null) {
         content += '<tr>';
         content += '<th>住所</th>';
-        content += '<td>'+'つくば市'+feature.get('住所2')+'</td>';
+        content += '<td>'+'熊谷市'+feature.get('住所')+'</td>';
         content += '</tr>';
     }
-    if (feature.get('設置者') !== null) {
-        content += '<tr>';
-        content += '<th>設置者</th>';
-        content += '<td>'+feature.get('設置者')+'</td>';
-        content += '</tr>';
-    }
+    //if (feature.get('設置者') !== null) {
+    //    content += '<tr>';
+    //    content += '<th>設置者</th>';
+    //    content += '<td>'+feature.get('設置者')+'</td>';
+    //    content += '</tr>';
+    //}
 　　if (feature.get('座標ソース') === '東大ジオコーディング') {
 　　　　content += '<tr>';
 　　　　content += '<th><b>注意</b></th>';
