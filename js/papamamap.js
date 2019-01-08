@@ -411,10 +411,12 @@ Papamamap.prototype.getPopupContent = function(feature)
     }
     if(feature.get('種別') == "認可保育所") {
         content += '<tr>';
-        content += '<th>欠員</th>';
+        content += '<th>入所可否</th>';
         content += '<td>';
         if (feature.get('v_age') !== null) {
             content += feature.get('v_age') + 'に空き有り <a href="http://www.city.kumagaya.lg.jp/kosodate/kodomoshisetsu/hoikunyusyo/H30hoikuukeire.files/H31.2nyuusyoukeirekanoujoukyou.pdf" target="_blank">【詳細】</a>';
+　　　　}else{content += '空きなし';
+	
 　　　　}
         content += '</td>';
         content += '</tr>';
