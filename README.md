@@ -1,15 +1,19 @@
 # くまがや保育園マップについて
 ========
 
-熊谷市内に点在する保育所（認可保育所）の位置・定員情報をマッピングした地図を
-立正大学の有志で構成される保育園マップチームが作成しています。
+情報システムの講義の一環として、熊谷市内に点在する保育所（認可保育所）の位置・定員情報をマッピングした地図を
+立正大学地球環境科学部環境システム学科の有志で構成される保育園マップチームが作成しています。
 熊谷市から認可保育所データの提供を受けていますがコンテンツについての責任の所在は当チームにあるものとします。
+
+- http://rissho-es.jp/ (立正大学地球環境科学部環境システム学科HP)
 
 ## 利用している地図について
 
-地理院地図で提供している地理院タイルの地図情報を利用しています。
+地理院地図で提供している地理院タイルの地図情報、bingmaps、Openstreetmapを利用しています。
 
-- http://portal.cyberjapan.jp/help/development/ichiran.html
+- http://portal.cyberjapan.jp/help/development/ichiran.htmll (地理院タイル)
+- https://www.bing.com/maps (bingmaps)
+- https://openstreetmap.jp/map#zoom=7&lat=38.12159&lon=138.97705&layers=00BFF (Openstretmap)
 
 ## 提供されるデータについて
 
