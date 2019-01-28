@@ -15,7 +15,7 @@ var moveToList = [];
 
 // マップサーバ一覧
 var mapServerList = {
-	'mierune-normal': {
+/*	'mierune-normal': {
 		label: "MIERUNE",
 		source_type: "xyz",
 		source: new ol.source.XYZ({
@@ -28,7 +28,7 @@ var mapServerList = {
 			projection: "EPSG:3857"
 		})
 	},
-
+*/
 	'bing-road': {
 		label: "標準(Bing)",
 		source_type: "bing",
